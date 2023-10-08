@@ -5,7 +5,7 @@ const Navbar = props => {
   return (
     <nav
       className={classNames({
-        "bg-white text-zinc-500": true, // colors
+        "bg-white text-white": true, // colors
         "flex items-center": true, // layout
         "w-full fixed z-10 px-4 shadow-sm h-16": true //positioning & styling
       })}

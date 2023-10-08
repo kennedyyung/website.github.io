@@ -9,18 +9,9 @@ import {
 
 export const defaultNavItems = [
   {
-    href: "/custom",
-    image: "/icon.jpg",
-  },
-  {
-    label: "Dashboard",
+    label: "Home",
     href: "/",
     icon: <HomeIcon className="w-6 h-6" />,
-  },
-  {
-    label: "Team",
-    href: "/team",
-    icon: <UserGroupIcon className="w-6 h-6" />,
   },
   {
     label: "Projects",

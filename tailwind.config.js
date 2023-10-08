@@ -6,6 +6,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      'base': '#f0f7f4',
+      'outline': '#627c85',
+      'button': '#c5979d',
+      'txt': '#6699cc',
+      'green-grey': '#35524a',
+      'white': '#ffffff',
+    },
     extend: {
       gridTemplateColumns: {
         sidebar: "300px auto", //for sidebar layout
@@ -15,4 +23,5 @@ module.exports = {
       },
     },
   },
+
 };
