@@ -2,7 +2,7 @@ import React, { PropsWithChildren, useState } from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 
-const Layout = (props: PropsWithChildren) => {
+const Layout = (props) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <div className="grid min-h-screen grid-rows-header bg-zinc-100">

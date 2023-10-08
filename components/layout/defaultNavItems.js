@@ -5,9 +5,13 @@ import {
   HomeIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
-import { NavItem } from "./Sidebar";
+// import { NavItem } from "./Sidebar";
 
-export const defaultNavItems: NavItem[] = [
+export const defaultNavItems = [
+  {
+    href: "/custom",
+    image: "/icon.jpg",
+  },
   {
     label: "Dashboard",
     href: "/",
