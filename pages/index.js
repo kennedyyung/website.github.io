@@ -12,7 +12,6 @@ const HomePage = () => {
               <p>I&apos;m Kennedy :)</p>
               <p>I&apos;m studying at the University of British Columbia </p>
               <div className="card-actions justify-end">
-                <button className="btn">Buy Now</button>
               </div>
             </div>
           </div>
