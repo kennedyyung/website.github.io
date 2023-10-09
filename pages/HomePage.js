@@ -28,7 +28,7 @@ const HomePage = () => {
             <div className="badge badge-nav badge-outline hover:bg-txt">React.js</div>
           </div>
 
-          <p className="ml-20 font-extrabold mt-5">Languages I'm learning:</p>  
+          <p className="ml-20 font-extrabold mt-5">Languages I&apos;m learning:</p>  
           <div class="grid-flow-col ml-20">
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">PHP</div>
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">SQL</div>
