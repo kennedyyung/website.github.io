@@ -56,7 +56,7 @@ const Projects = () => {
                         alt="ubc image"
                     />
             <div className="card-body">
-                <h2 className="card-title">Pomo's Paradise
+                <h2 className="card-title">Pomo&apos;s Paradise
                 <div className="badge badge-secondary">Feb, 2023</div>
                 </h2>
             <p></p>
