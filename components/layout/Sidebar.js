@@ -30,9 +30,19 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
             width={200}
             alt="profile image"
             className="rounded-full"
-          />
+        />
           </div>
-          <div className="font-bold text-lg text-white flex items-center justify-center my-3 ">Kennedy Yung</div>
+          <div className="font-bold text-lg text-white flex items-center justify-center mt-3 ">Kennedy Yung</div>
+        <div className="grid grid-flow-row flex items-center justify-center">
+        <div>
+            <a href="https://www.linkedin.com/in/kennedy-yung/" target="_blank">
+          <img src="linkedin.png" alt="" className="inline-block w-8 h-8 mx-10 hover:bg-sky-100"/>
+            </a>
+            <a href="https://github.com/kennedyyung" target="_blank">
+          <img src="github.png" alt="" className="inline-block w-8 h-8 mx-10 hover:bg-sky-100"/>
+            </a>
+          </div>
+        </div>
         <ul className="py-2 flex flex-col gap-2">
           {navItems.map((item, index) => {
             return (
