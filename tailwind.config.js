@@ -13,6 +13,7 @@ module.exports = {
       'txt': '#6699cc',
       'green-grey': '#35524a',
       'white': '#ffffff',
+      'black': '#000000'
     },
     extend: {
       gridTemplateColumns: {
@@ -20,6 +21,12 @@ module.exports = {
       },
       gridTemplateRows: {
         header: "64px auto", //for the navbar layout
+      },
+      spacing: {
+        '1': '8px', // 1 unit
+        '2': '16px', // 2 units
+        '3': '24px', // 3 units
+        // Add more spacing values as needed
       },
     },
   },

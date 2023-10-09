@@ -16,6 +16,6 @@
     "incremental": true,
     "baseUrl": "."
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/layout/defaultNavItems.js", "components/layout/Navbar.js", "pages/api/hello.js", "pages/index.js", "pages/_app.js", "components/layout/Sidebar.js", "components/layout/Sidebar.js", "components/layout/Layout.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/layout/defaultNavItems.js", "components/layout/Navbar.tsx", "pages/api/hello.js", "pages/index.js", "pages/_app.js", "components/layout/Sidebar.js", "components/layout/Sidebar.js", "components/layout/Layout.js"],
   "exclude": ["node_modules"]
 }
