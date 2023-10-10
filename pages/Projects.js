@@ -10,7 +10,7 @@ const Projects = () => {
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
 
-          <a href="/Inteflow">
+          <link href="/Inteflow">
             <div className="card w-96 shadow-xl bg-button hover:scale-110">
             <Image
                         src="/Inteflow.png" 
@@ -28,9 +28,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </link>
 
-          <a href="/Kizuna">
+          <link href="/Kizuna">
           <div className="card w-96 bg-button shadow-xl hover:scale-110">
           <Image
                         src="/kizuna.jpg" 
@@ -50,9 +50,9 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </a>
+          </link>
 
-          <a href="/Pomo">
+          <link href="/Pomo">
           <div className="card w-96 bg-button shadow-xl hover:scale-110">
           <Image
                         src="/pomo.PNG" 
@@ -72,7 +72,7 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </a>
+          </link>
 
           </div>
 
