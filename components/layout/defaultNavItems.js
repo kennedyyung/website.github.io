@@ -10,17 +10,13 @@ import {
 export const defaultNavItems = [
   {
     label: "Home",
-    href: "/",
+    href: "/pages/HomePage",
     icon: <HomeIcon className="w-6 h-6" />,
   },
   {
     label: "Projects",
-    href: "/Projects",
+    href: "/pages/Projects",
     icon: <FolderIcon className="w-6 h-6" />,
   },
-  {
-    label: "Calendar",
-    href: "/calendar",
-    icon: <CalendarIcon className="w-6 h-6" />,
-  },
+
 ];
