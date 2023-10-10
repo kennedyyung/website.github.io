@@ -10,45 +10,50 @@ const Projects = () => {
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
 
-          <div className="card w-96 bg-base-100 shadow-xl">
-          <Image
+          <a href="/Inteflow">
+            <div className="card w-96 shadow-xl bg-button hover:scale-110">
+            <Image
                         src="/Inteflow.png" 
                         height={450}
                         width={550}
                         alt="inteflow image"
                     />
-            <div className="card-body">
-                <h2 className="card-title">Inteflow
+              <div className="card-body ">
+                <h2 className="card-title text-white">Inteflow
                     <div className="badge badge-secondary">Aug, 2023</div>
                 </h2>
-            <p></p>
-            <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div> 
-            <div className="badge badge-outline">Products</div>
+                <div className="card-actions justify-end">
+                  <div className="badge badge-outline text-white">Swift</div> 
+                  <div className="badge badge-outline text-white">SwiftUI</div>
+                </div>
+              </div>
             </div>
-            </div>
-          </div>
+          </a>
 
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <a href="/Kizuna">
+          <div className="card w-96 bg-button shadow-xl hover:scale-110">
           <Image
                         src="/kizuna.jpg" 
                         height={450}
                         width={500}
                         alt="ubc image"
                     />
-            <div className="card-body">
-                <h2 className="card-title">Kizuna
+            <div className="card-body ">
+                <h2 className="card-title text-white">Kizuna
                 <div className="badge badge-secondary">Jan, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div> 
-            <div className="badge badge-outline">Products</div>
+            <div className="badge badge-outline text-white">HTML</div> 
+            <div className="badge badge-outline text-white">CSS</div>
+            <div className="badge badge-outline text-white">React.js</div>
             </div>
             </div>
           </div>
+          </a>
 
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <a href="/Pomo">
+          <div className="card w-96 bg-button shadow-xl hover:scale-110">
           <Image
                         src="/pomo.PNG" 
                         height={450}
@@ -56,38 +61,28 @@ const Projects = () => {
                         alt="ubc image"
                     />
             <div className="card-body">
-                <h2 className="card-title">Pomo&apos;s Paradise
+                <h2 className="card-title text-white">Pomo&apos;s Paradise
                 <div className="badge badge-secondary">Feb, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div> 
-            <div className="badge badge-outline">Products</div>
+            <div className="badge badge-outline text-white">React.js</div> 
+            <div className="badge badge-outline text-white">CSS</div>
+            <div className="badge badge-outline text-white">HTML</div>
             </div>
             </div>
           </div>
+          </a>
 
           </div>
 
         <div className="flex flex-col items-center gap-4">
+
+        <div>
+          <h1 class=" mt-5 text-black ">Archived Projects</h1>
+        </div>
         
-          {/* <div className="flex items-center justify-center">
-            <div className="card w-150 bg-button text-white shadow-xl">
-              <div className="card-body">
-                <h2 className="card-title">Hi, welcome to my website!</h2>
-                <p>I&apos;m Kennedy :)</p>
-                <p>I&apos;m currently a student at the University of British Columbia</p>
-                <div className="card-actions justify-end"></div>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="flex items-center justify-center">
-            <div className="card w-50  bg-base text-black shadow-xl">
-              <div className="card-body flex items-center justify-center">
-                <div className="flex justify-start">Some languages I have experience in include:</div>
-              </div>
-            </div>
-          </div> */}
+
 
 
         </div>
