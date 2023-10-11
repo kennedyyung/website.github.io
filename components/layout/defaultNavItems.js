@@ -10,12 +10,12 @@ import {
 export const defaultNavItems = [
   {
     label: "Home",
-    href: "/pages/HomePage",
+    href: "/",
     icon: <HomeIcon className="w-6 h-6" />,
   },
   {
     label: "Projects",
-    href: "/pages/Projects",
+    href: "/Projects",
     icon: <FolderIcon className="w-6 h-6" />,
   },
 
