@@ -4,15 +4,15 @@ import Image from "next/image";
 const Projects = () => {
     return (
     <div className="container bg-base">
-    <div className="grid min-h-screen">
-      <div className="py-20"> 
-        <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
+      <div className="grid min-h-screen">
+        <div className="py-20"> 
+          <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
 
-          <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
+            <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
 
 
-          <div className="card w-96 shadow-xl bg-button hover:scale-110">
-          <Image
+            <div className="card w-96 shadow-xl bg-button hover:scale-110">
+              <Image
                         src="/Inteflow.png" 
                         height={450}
                         width={550}
@@ -30,7 +30,8 @@ const Projects = () => {
             </div>
 
             </div>
-          </link>
+            </div>
+
 
 
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
@@ -57,7 +58,7 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </link>
+    
 
 
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
@@ -81,7 +82,7 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </link>
+
 
           </div>
 
