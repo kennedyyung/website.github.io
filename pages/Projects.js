@@ -10,50 +10,58 @@ const Projects = () => {
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
 
-          <link href="/Inteflow">
-            <div className="card w-96 shadow-xl bg-button hover:scale-110">
-            <Image
+
+          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+          <Image
                         src="/Inteflow.png" 
                         height={450}
                         width={550}
                         alt="inteflow image"
                     />
-              <div className="card-body ">
+
+            <div className="card-body">
                 <h2 className="card-title text-white">Inteflow
                     <div className="badge badge-secondary">Aug, 2023</div>
                 </h2>
-                <div className="card-actions justify-end">
-                  <div className="badge badge-outline text-white">Swift</div> 
-                  <div className="badge badge-outline text-white">SwiftUI</div>
-                </div>
-              </div>
+            <p></p>
+            <div className="card-actions justify-end">
+            <div className="badge badge-outline text-white">Swift</div> 
+            <div className="badge badge-outline text-white">SwiftUI</div>
+            </div>
+
             </div>
           </link>
 
-          <link href="/Kizuna">
-          <div className="card w-96 bg-button shadow-xl hover:scale-110">
+
+          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+
           <Image
                         src="/kizuna.jpg" 
                         height={450}
                         width={500}
                         alt="ubc image"
                     />
-            <div className="card-body ">
+
+            <div className="card-body">
+
                 <h2 className="card-title text-white">Kizuna
                 <div className="badge badge-secondary">Jan, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
-            <div className="badge badge-outline text-white">HTML</div> 
+
+            <div className="badge badge-outline text-white">React.js</div> 
             <div className="badge badge-outline text-white">CSS</div>
-            <div className="badge badge-outline text-white">React.js</div>
+            <div className="badge badge-outline text-white">HTML</div>
+
             </div>
             </div>
           </div>
           </link>
 
-          <link href="/Pomo">
-          <div className="card w-96 bg-button shadow-xl hover:scale-110">
+
+          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+
           <Image
                         src="/pomo.PNG" 
                         height={450}
@@ -69,6 +77,7 @@ const Projects = () => {
             <div className="badge badge-outline text-white">React.js</div> 
             <div className="badge badge-outline text-white">CSS</div>
             <div className="badge badge-outline text-white">HTML</div>
+
             </div>
             </div>
           </div>
@@ -79,7 +88,9 @@ const Projects = () => {
         <div className="flex flex-col items-center gap-4">
 
         <div>
-          <h1 class=" mt-5 text-black ">Archived Projects</h1>
+
+          <h1 class=" mt-5 text-black underline">Archived Projects</h1>
+
         </div>
         
 
