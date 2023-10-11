@@ -32,7 +32,8 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
             className="rounded-full"
         />
           </div>
-          <div className="font-bold text-lg text-white flex items-center justify-center mt-3 mb-2">Kennedy Yung</div>
+
+          <div className="font-bold text-lg text-white flex items-center justify-center mt-2 mb-2 ">Kennedy Yung</div>
         <div className="grid grid-flow-row flex items-center justify-center">
         <div>
             <a href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer">
