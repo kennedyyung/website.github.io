@@ -30,7 +30,8 @@ const Projects = () => {
             </div>
 
             </div>
-          </link>
+            </div>
+
 
 
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
@@ -57,7 +58,7 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </link>
+
 
 
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
@@ -81,7 +82,7 @@ const Projects = () => {
             </div>
             </div>
           </div>
-          </link>
+
 
           </div>
 
@@ -89,7 +90,7 @@ const Projects = () => {
 
         <div>
 
-          <h1 class=" mt-5 text-black underline">Archived Projects</h1>
+          <h1 className=" mt-5 text-black underline">Archived Projects</h1>
 
         </div>
         
