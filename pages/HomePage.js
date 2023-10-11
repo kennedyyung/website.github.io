@@ -16,8 +16,8 @@ const HomePage = () => {
             </div>
           </div>
         
-          <p className="ml-20 font-extrabold mt-5">Languages I have experience in include:</p>  
-          <div class="grid-flow-col ml-20">
+          <p className="ml-20 font-extrabold mt-5 text-black">Languages I have experience in include:</p>  
+          <div class="grid-flow-col ml-20 text-black">
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">Java</div>
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">CSS</div>
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">C++</div>
@@ -28,8 +28,8 @@ const HomePage = () => {
             <div className="badge badge-nav badge-outline hover:bg-txt">React.js</div>
           </div>
 
-          <p className="ml-20 font-extrabold mt-5">Languages I&apos;m learning:</p>  
-          <div class="grid-flow-col ml-20">
+          <p className="ml-20 font-extrabold mt-5 text-black">Languages I&apos;m learning:</p>  
+          <div class="grid-flow-col ml-20 text-black">
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">PHP</div>
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">SQL</div>
             <div className="badge badge-nav badge-outline mr-2 hover:bg-txt">C#</div>
