@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-const Inteflow = () => {
+const Kizuna = () => {
     return (
         <div>
-            <h1>Inteflow page</h1>
+            <h1>Kizuna page</h1>
         </div>
     );
 };
 
-export default Inteflow;
+export default Kizuna;

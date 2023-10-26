@@ -36,7 +36,7 @@ const Projects = () => {
 
 
 
-
+        <Link href="/Kizuna">
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
 
           <Image
@@ -61,9 +61,9 @@ const Projects = () => {
             </div>
             </div>
           </div>
+        </Link>
 
-
-
+        <Link href="/Pomo">
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
 
           <Image
@@ -85,6 +85,8 @@ const Projects = () => {
             </div>
             </div>
           </div>
+
+        </Link>
 
 
           </div>
