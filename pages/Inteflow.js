@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Inteflow = () => {
     return (
-        <div>
+        <div className="container bg-base">
             <h1>Inteflow page</h1>
         </div>
     );

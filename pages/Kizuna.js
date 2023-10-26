@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Kizuna = () => {
     return (
-        <div>
+        <div className="container bg-base">
             <h1>Kizuna page</h1>
         </div>
     );
