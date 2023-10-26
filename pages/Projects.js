@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -9,8 +10,7 @@ const Projects = () => {
         <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
-
-
+          <a href="/Inteflow">
           <div className="card w-96 shadow-xl bg-button hover:scale-110">
           <Image
                         src="/Inteflow.png" 
@@ -31,6 +31,9 @@ const Projects = () => {
 
             </div>
             </div>
+
+            </a>
+
 
 
 
