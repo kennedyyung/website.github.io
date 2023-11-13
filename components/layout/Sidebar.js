@@ -36,10 +36,10 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
           <div className="font-bold text-lg text-white flex items-center justify-center mt-2 mb-2 ">Kennedy Yung</div>
         <div className="grid grid-flow-row flex items-center justify-center">
         <div>
-            <Link href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer" target="_blank">
           <img src="linkedin.png" alt="" className="inline-block w-8 h-8 mx-10 hover:bg-sky-100"/>
             </Link>
-            <Link href="https://github.com/kennedyyung" rel="noopener noreferrer">
+            <Link href="https://github.com/kennedyyung" rel="noopener noreferrer" target="_blank">
           <img src="github.png" alt="" className="inline-block w-8 h-8 mx-10 hover:bg-sky-100"/>
             </Link>
           </div>

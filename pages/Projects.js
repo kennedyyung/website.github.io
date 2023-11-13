@@ -94,8 +94,9 @@ const Projects = () => {
         <div className="flex flex-col items-center gap-4">
 
         <div>
-
-          <h1 className=" mt-5 text-black underline">Archived Projects</h1>
+          <Link href="/Archived">
+            <h1 className=" mt-5 text-black underline">Archived Projects</h1>
+          </Link>
 
         </div>
         

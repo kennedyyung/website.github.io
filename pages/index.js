@@ -53,6 +53,8 @@ const index = () => {
       <HomePage/>
       <Projects/>
     </main>
+
+
   );
 };
 
