@@ -9,7 +9,7 @@ const Inteflow = () => {
 
             <div className="card w-3/4 bg-txt text-black">
                 <div className="card-body items-center">
-                    <p1 className="text-center">Inteflow is an iOS mobile app designed to streamline your math problem-solving experience. It's your personal problem-solving companion that scans both formula and text-based math problems. Once scanned, inteflow breaks down these problems, offering detailed explanations that guide you to the solution through a chatbot. It also offers a wide range of supplementary resources, curated practice problems and textbooks to aid in reinforcing your understanding. </p1>
+                    <p1 className="text-center">Inteflow is an iOS mobile app designed to streamline your math problem-solving experience. It&apos;s your personal problem-solving companion that scans both formula and text-based math problems. Once scanned, inteflow breaks down these problems, offering detailed explanations that guide you to the solution through a chatbot. It also offers a wide range of supplementary resources, curated practice problems and textbooks to aid in reinforcing your understanding. </p1>
                     <p2>I was tasked with the implementation of the UI design in SwiftUI</p2>
 
                     <div className=" flex flex-row text-center">

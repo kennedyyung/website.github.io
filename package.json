@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm run download-webviewer",
+    "download-webviewer": "npx @pdftron/webviewer-downloader"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.14",
+    "@pdftron/webviewer": "^10.5.1",
     "classnames": "^2.3.2",
     "next": "^13.0.5",
     "react": "^18.2.0",
