@@ -19,5 +19,11 @@ export const defaultNavItems = [
     href: "/Projects",
     icon: <FolderIcon className="w-6 h-6" />,
   },
+  // {
+  //   label: "Resume",
+  //   href: "/Resume",
+  //   icon: <FolderIcon className="w-6 h-6" />,
+  // },
+
 
 ];
