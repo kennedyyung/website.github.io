@@ -4,7 +4,7 @@ import {
   CalendarIcon,
   FolderIcon,
   HomeIcon,
-  UserGroupIcon,
+  DocumentTextIcon,
 } from "@heroicons/react/24/outline";
 // import { NavItem } from "./Sidebar";
 
@@ -19,11 +19,13 @@ export const defaultNavItems = [
     href: "/Projects",
     icon: <FolderIcon className="w-6 h-6" />,
   },
-  // {
-  //   label: "Resume",
-  //   href: "/Resume",
-  //   icon: <FolderIcon className="w-6 h-6" />,
-  // },
-
+  {
+    label: "Resume",
+    href: "https://drive.google.com/file/d/19NtKG94X0c-wUFasR96piwuDdmM3BmZz/view?usp=sharing",
+    rel: "noopener noreferrer",
+    target: "_blank",
+    icon: <DocumentTextIcon className="w-6 h-6" />,
+    
+  },
 
 ];

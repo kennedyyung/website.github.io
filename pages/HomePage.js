@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="chat chat-start flex justify-start ml-20">
             <div className="justify-start chat-bubble bg-button text-white">
               <div className="text-xl font-bold">About me</div>
-              <p>I&apos;m Kennedy, and I&apos;m currently in my third year at the University of British Columbia! I&apos;m pursuing a bachelors of science with a specialization in math. Aside from school I enjoy playing basketball, drawing, and playing video games. Right now I&apos;m trying to build on my CSS/Tailwind and Javascript skills, and am hoping to learn Python next!</p>
+              <p>I&apos;m Kennedy, and I&apos;m currently in my third year at the University of British Columbia! I&apos;m pursuing a bachelors of science with a specialization in math. Aside from school I enjoy playing basketball, drawing, and playing video games. Right now I&apos;m trying to build on my CSS/Tailwind and Javascript skills on my own, and am hoping to learn Python next!</p>
               <p>This website is still under construction but I hope you enjoy what I have so far :)</p>
             </div>
         </div>
@@ -62,6 +62,8 @@ const HomePage = () => {
                     </div>
                 <div className="card-actions justify-end"></div>
               </div>
+              <p className="text-xl font-bold ml-10">Relevant Courses</p>
+              <p className="ml-10 italic">CPSC 221: Basic Algorithms and Data Structures</p>
         </div>
         
 
