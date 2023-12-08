@@ -62,9 +62,42 @@ const HomePage = () => {
                     </div>
                 <div className="card-actions justify-end"></div>
               </div>
-              <p className="text-xl font-bold ml-10">Relevant Courses</p>
-              <p className="ml-10 italic">CPSC 221: Basic Algorithms and Data Structures</p>
         </div>
+
+        <div className="card w-50 bg-nav text-white shadow-xl mt-5 overflow-x-auto">
+          <div className="card-body">
+          <p className="text-xl font-bold ml-10">Relevant Courses</p>
+              <p className="ml-10 italic">CPSC 221: Basic Algorithms and Data Structures</p>
+              <ul className="list-disc list-inside ml-10">
+                <li className="ml-15">Algorithm analysis methods, serarching and sorting algorithms, basic data structures,</li>
+                <p className="ml-5"> graphs and concurrency </p>
+                <li>Language: C++</li>
+              </ul>
+              <br />
+              <p className="ml-10 italic">CPSC 213: Introduction to Computer Systems</p>
+              <ul className="list-disc list-inside ml-10">
+                <li>Software architecture, operating systems, and I/O architectures</li>
+                <li>Relationships between application software, operating systems, and computing hardware</li>
+                <li>Language: C</li>
+              </ul>
+              <br />
+              <p className="ml-10 italic">CPSC 210: Software Construction</p>
+              <ul className="list-disc list-inside ml-10">
+                <li>Design, development, and analysis of robust software components</li>
+                <li>Coputational models, data structures, debugging, and testing</li>
+                <li>Language: Java</li>
+              </ul>
+              <br />
+              <p className="ml-10 italic">CPSC 304: Introduction to Relational Databases</p>
+              <ul className="list-disc list-inside ml-10">
+                <li>Overview of database systems, ER models, logical database design and normalization,</li>
+                <p className="ml-5"> formal relational query languages, SQL, and data warehouses</p>
+                <li>Languages: SQL, PHP</li>
+                <li>Database System: Oracle</li>
+              </ul>
+          </div>
+        </div>
+
         
 
 
