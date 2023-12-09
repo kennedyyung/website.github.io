@@ -84,7 +84,7 @@ const HomePage = () => {
               <p className="ml-10 italic">CPSC 210: Software Construction</p>
               <ul className="list-disc list-inside ml-10">
                 <li>Design, development, and analysis of robust software components</li>
-                <li>Coputational models, data structures, debugging, and testing</li>
+                <li>Computational models, data structures, debugging, and testing</li>
                 <li>Language: Java</li>
               </ul>
               <br />
