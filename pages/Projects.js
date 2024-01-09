@@ -6,7 +6,7 @@ const Projects = () => {
     return (
     <div className="container bg-base">
     <div className="grid min-h-screen">
-      <div className="py-20"> 
+      <div className="py-15"> 
         <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
@@ -16,12 +16,11 @@ const Projects = () => {
                         src="/Inteflow.png" 
                         height={450}
                         width={550}
-                        alt="inteflow image"
                     />
 
             <div className="card-body">
                 <h2 className="card-title text-white">Inteflow
-                    <div className="badge badge-secondary">Aug, 2023</div>
+                    <div className="badge badge-secondary text-white">Aug, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
@@ -43,13 +42,12 @@ const Projects = () => {
                         src="/kizuna.jpg" 
                         height={450}
                         width={500}
-                        alt="ubc image"
                     />
 
             <div className="card-body">
 
                 <h2 className="card-title text-white">Kizuna
-                <div className="badge badge-secondary">Jan, 2023</div>
+                <div className="badge badge-secondary text-white">Jan, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
@@ -70,11 +68,10 @@ const Projects = () => {
                         src="/pomo.PNG" 
                         height={450}
                         width={500}
-                        alt="ubc image"
                     />
             <div className="card-body">
                 <h2 className="card-title text-white">Pomo&apos;s Paradise
-                <div className="badge badge-secondary">Feb, 2023</div>
+                <div className="badge badge-secondary text-white">Feb, 2023</div>
                 </h2>
             <p></p>
             <div className="card-actions justify-end">
@@ -95,7 +92,7 @@ const Projects = () => {
 
         <div>
           <Link href="/Archived">
-            <h1 className=" mt-5 text-black underline">Archived Projects</h1>
+            <h1 className=" mt-5 text-black underline">School Projects</h1>
           </Link>
 
         </div>

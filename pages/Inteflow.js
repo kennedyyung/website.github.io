@@ -4,10 +4,11 @@ import Link from "next/link";
 
 const Inteflow = () => {
     return (
-        <div className="container bg-base">
-            <h1 className="font-bold text-2xl text-black">Inteflow</h1>
+        <div className="container bg-base flex flex-col items-center">
+            <h1 className="font-bold text-2xl text-black text-center">Inteflow</h1>
 
-            <div className="card w-3/4 bg-txt text-black">
+            {/* <div className="flex justify-center"> */}
+            <div className="card w-3/4 bg-txt text-black" >
                 <div className="card-body items-center">
                     <p1 className="text-center">Inteflow is an iOS mobile app designed to streamline your math problem-solving experience. It&apos;s your personal problem-solving companion that scans both formula and text-based math problems. Once scanned, inteflow breaks down these problems, offering detailed explanations that guide you to the solution through a chatbot. It also offers a wide range of supplementary resources, curated practice problems and textbooks to aid in reinforcing your understanding. </p1>
                     <p2>I was tasked with the implementation of the UI design in SwiftUI</p2>
@@ -21,7 +22,9 @@ const Inteflow = () => {
                         </Link>
                     </div>
                 </div>
+            {/* </div> */}
             </div>
+
         </div>
     );
 };
