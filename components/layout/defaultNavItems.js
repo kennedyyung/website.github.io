@@ -21,7 +21,7 @@ export const defaultNavItems = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/19NtKG94X0c-wUFasR96piwuDdmM3BmZz/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1_brSqVhScD-YEhd3aSr6CskTAB1smtxh/view?usp=sharing",
     rel: "noopener noreferrer",
     target: "_blank",
     icon: <DocumentTextIcon className="w-6 h-6" />,
