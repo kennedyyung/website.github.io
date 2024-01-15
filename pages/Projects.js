@@ -85,6 +85,24 @@ const Projects = () => {
 
         </Link>
 
+        <div className="card w-96 shadow-xl bg-button hover:scale-110">
+
+          <Image
+            src="/pomo.PNG" 
+            height={450}
+            width={500}
+          />
+          <div className="card-body">
+            <h2 className="card-title text-white">Harvest Hub
+              <div className="badge badge-secondary text-white">Jan, 2024</div>
+            </h2>
+            <p></p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline text-white">Figma</div>
+            </div>
+          </div>
+        </div>
+
 
           </div>
 
