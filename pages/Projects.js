@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projects = () => {
     return (
-    <div className="container bg-base">
+    <div className="container min-h-screen bg-base">
     <div className="grid min-h-screen">
       <div className="py-15"> 
         <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
@@ -85,10 +85,11 @@ const Projects = () => {
 
         </Link>
 
+        <Link href="/HarvestHub">
         <div className="card w-96 shadow-xl bg-button hover:scale-110">
 
           <Image
-            src="/pomo.PNG" 
+            src="/Harvesthub.png" 
             height={450}
             width={500}
           />
@@ -101,7 +102,9 @@ const Projects = () => {
               <div className="badge badge-outline text-white">Figma</div>
             </div>
           </div>
+
         </div>
+        </Link>
 
 
           </div>
@@ -114,6 +117,7 @@ const Projects = () => {
           </Link>
 
         </div>
+        <p></p>
         
 
 

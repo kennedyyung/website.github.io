@@ -1,4 +1,6 @@
 import React from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 import {
   CalendarIcon,
@@ -21,7 +23,7 @@ export const defaultNavItems = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/1_brSqVhScD-YEhd3aSr6CskTAB1smtxh/view?usp=sharing",
+    href: "https://drive.google.com/file/d/12a9glpo9-Xu8Nnj-Zl8fUGtEo0NBvdyC/view?usp=sharing",
     rel: "noopener noreferrer",
     target: "_blank",
     icon: <DocumentTextIcon className="w-6 h-6" />,

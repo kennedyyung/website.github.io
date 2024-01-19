@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const HomePage = () => {
     return (
-    <div className="container bg-base">
+    <div className="container min-h-screen bg-base">
     <div className="grid min-h-screen">
       <div className="py-20"> 
         <div className="font-extrabold text-5xl text-black mb-10 ml-20">Hi, welcome to my website!</div>
