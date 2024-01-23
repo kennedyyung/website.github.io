@@ -106,6 +106,29 @@ const Projects = () => {
         </div>
         </Link>
 
+        <Link href="/HarmonyHealth">
+        <div className="card w-96 shadow-xl bg-button hover:scale-110">
+
+          <Image
+            src="/HarmonyHealth.png" 
+            height={450}
+            width={500}
+          />
+          <div className="card-body">
+            <h2 className="card-title text-white">Harmony Health
+              <div className="badge badge-secondary text-white">Jan, 2024</div>
+            </h2>
+            <p></p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline text-white">React.js</div>
+              <div className="badge badge-outline text-white">TailwindCSS</div>
+              <div className="badge badge-outline text-white">Typescript</div>
+            </div>
+          </div>
+
+        </div>
+        </Link>
+
 
           </div>
 
