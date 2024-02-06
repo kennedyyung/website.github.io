@@ -18,7 +18,7 @@ export const defaultNavItems = [
   },
   {
     label: "Projects",
-    href: "/Projects",
+    href: "#projects",
     icon: <FolderIcon className="w-6 h-6" />,
   },
   {

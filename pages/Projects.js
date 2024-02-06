@@ -6,12 +6,12 @@ const Projects = () => {
     return (
     <div className="container min-h-screen bg-base">
     <div className="grid min-h-screen">
-      <div className="py-15"> 
+      <div className="py-15" id="projects"> 
         <div className="font-extrabold text-5xl text-black mb-10 ml-10">Projects</div>
 
           <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
           <Link href="/Inteflow">
-          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+          <div className="card w-96 shadow-xl bg-button hover:scale-110 ease-in-out duration-300">
           <Image
                         src="/Inteflow.png" 
                         height={450}
@@ -36,7 +36,7 @@ const Projects = () => {
 
 
         <Link href="/Kizuna">
-          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+          <div className="card w-96 shadow-xl bg-button hover:scale-110 ease-in-out duration-300">
 
           <Image
                         src="/kizuna.jpg" 
@@ -62,7 +62,7 @@ const Projects = () => {
         </Link>
 
         <Link href="/Pomo">
-          <div className="card w-96 shadow-xl bg-button hover:scale-110">
+          <div className="card w-96 shadow-xl bg-button hover:scale-110 ease-in-out duration-300">
 
           <Image
                         src="/pomo.PNG" 
@@ -86,7 +86,7 @@ const Projects = () => {
         </Link>
 
         <Link href="/HarvestHub">
-        <div className="card w-96 shadow-xl bg-button hover:scale-110">
+        <div className="card w-96 shadow-xl bg-button hover:scale-110 ease-in-out duration-300">
 
           <Image
             src="/Harvesthub.png" 
@@ -107,7 +107,7 @@ const Projects = () => {
         </Link>
 
         <Link href="/HarmonyHealth">
-        <div className="card w-96 shadow-xl bg-button hover:scale-110">
+        <div className="card w-96 shadow-xl bg-button hover:scale-110 ease-in-out duration-300">
 
           <Image
             src="/HarmonyHealth.png" 

@@ -4,7 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { defaultNavItems } from "./defaultNavItems"
 import { useOnClickOutside } from "usehooks-ts"
-const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
+const Sidebar = ({ open, setOpen }) => {
   const ref = useRef(null)
   useOnClickOutside(ref, e => {
     setOpen(false)
@@ -45,9 +45,9 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
           </div>
         </div>
         <ul className="py-2 flex flex-col gap-2">
-          {navItems.map((item, index) => {
+          {defaultNavItems.map((item, index) => {
             return (
-              <Link key={index} href={item.href}>
+              <a key={index} href={item.href}>
                 <li
                   className={classNames({
                     "text-white hover:bg-indigo-900": true, //colors
@@ -58,7 +58,7 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }) => {
                 >
                   {item.icon} {item.label}
                 </li>
-              </Link>
+              </a>
             )
           })}
         </ul>
