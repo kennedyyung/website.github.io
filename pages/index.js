@@ -45,12 +45,16 @@
 import React from "react";
 import HomePage from "./HomePage";
 import Projects from "./Projects";
+import Education from "./Education";
+import Experience from "./Experience";
 
 
 const index = () => {
   return (
     <main className="bg-base overflow-hidden snap-y scroll-smooth">
       <HomePage/>
+      <Education/>
+      <Experience/>
       <Projects/>
     </main>
 

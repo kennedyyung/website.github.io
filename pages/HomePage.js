@@ -3,8 +3,7 @@ import Image from "next/image"
 
 const HomePage = () => {
   return (
-    <div className="container min-h-screen bg-base">
-      <div className="grid min-h-screen">
+    <div className="container  bg-base">
         <div className="py-20">
           <div className="font-extrabold text-5xl text-black mb-10 ml-20">Hi, welcome to my website!</div>
 
@@ -44,63 +43,6 @@ const HomePage = () => {
             <div className="badge badge-nav badge-outline hover:bg-txt">Python</div>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-
-
-
-            <div className="card w-50 bg-nav text-white shadow-xl mt-10">
-              <div className="card-body px-10 grid grid-cols-2 gap-2">
-                <div>
-                  <Image
-                    src="/ubc.png"
-                    height={100}
-                    width={100}
-                    alt="ubc image"
-                  />
-                </div>
-                <div>
-                  <h2 className="card-title text-xl font-bold">Education</h2>
-                  <p>Bachelor of Science, Mathematics</p>
-                  <p>University of British Columbia</p>
-                  <p>2021-2025</p>
-                </div>
-                <div className="card-actions justify-end">
-                  <details className="dropdown">
-                    <summary className="btn text-black bg-white hover:bg-txt">Relevant Courses</summary>
-                    {/* // </summary><button className="btn btn-primary">Relevant Courses</button> */}
-                    <ul className="p-2 shadow menu dropdown-content z-[1] bg-nav text-white rounded-box w-80">
-                      <p className="ml-10 italic">CPSC 221: Basic Algorithms and Data Structures</p>
-                      <ul className="list-outside ml-10">
-                        <li className="ml-15">Algorithm analysis methods, serarching and sorting algorithms, basic data structures,  <br/> graphs and concurrency</li>
-                        <li>Language: C++</li>
-                      </ul>
-                      <br />
-                      <p className="ml-10 italic">CPSC 213: Introduction to Computer Systems</p>
-                      <ul className="list-disc list-inside ml-10">
-                        <li>Software architecture, operating systems, and I/O architectures</li>
-                        <li>Relationships between application software, operating systems, and computing hardware</li>
-                        <li>Language: C</li>
-                      </ul>
-                      <br />
-                      <p className="ml-10 italic">CPSC 210: Software Construction</p>
-                      <ul className="list-disc list-inside ml-10">
-                        <li>Design, development, and analysis of robust software components</li>
-                        <li>Computational models, data structures, debugging, and testing</li>
-                        <li>Language: Java</li>
-                      </ul>
-                      <br />
-                      <p className="ml-10 italic">CPSC 304: Introduction to Relational Databases</p>
-                      <ul className="list-disc list-inside ml-10">
-                        <li>Overview of database systems, ER models, logical database design and normalization,</li>
-                        <p className="ml-5"> formal relational query languages, SQL, and data warehouses</p>
-                        <li>Languages: SQL, PHP</li>
-                        <li>Database System: Oracle</li>
-                      </ul>
-                    </ul>
-                  </details>
-                </div>
-              </div>
-            </div>
 
 
 
@@ -226,8 +168,9 @@ const HomePage = () => {
 
 
 
-          </div>
-        </div>
+
+
+
       </div>
     </div>
   );

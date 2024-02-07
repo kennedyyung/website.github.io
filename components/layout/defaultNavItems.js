@@ -17,6 +17,16 @@ export const defaultNavItems = [
     icon: <HomeIcon className="w-6 h-6" />,
   },
   {
+    label: "Education",
+    href: "#education",
+    icon: <FolderIcon className="w-6 h-6" />,
+  },
+  {
+    label: "Experience",
+    href: "#experience",
+    icon: <FolderIcon className="w-6 h-6" />,
+  },
+  {
     label: "Projects",
     href: "#projects",
     icon: <FolderIcon className="w-6 h-6" />,
