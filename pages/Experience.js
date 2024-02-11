@@ -15,7 +15,8 @@ const Experience = () => {
                                 <li>UBC BEST is a biomedical engineering student design team, where I am a part of the Multiple Sclerosis to Movement(M2M) sub-team </li>
                                 <li>M2M&apos;s project is a data driven glove paired with a mobile app to enhance Multiple Sclerosis patients' rehabilitation process and track progress </li>
                                 <li>The app has built in games to engage patients in rehabilitiation exercises, and displays the data from the sensors to help track the progess</li>
-                                <li>I am helping</li>
+                                <li>I am helping with the implementation of the UX/UI in the mobile app, fixing bugs in the game, and creating vectors for both the app and the game</li>
+                                <li>Languages used: React Native, C# and used Unity3D</li>
                             </ul>
 
                         </div>
