@@ -5,9 +5,11 @@ import Image from "next/image";
 const Education = () => {
     return (
         <div className="container min-h-screen bg-base">
-            <div className="grid min-h-screen">
+            <div className="grid min-h-screen mb-20">
                 <div className="py-15" id="education">
-                    <div className="font-extrabold text-5xl text-black mb-10 ml-10">Education</div>
+                    <div className="grid place-items-center">
+                    <div className="font-extrabold text-5xl text-black mb-10">Education</div>
+                    </div>
                     <hr />
 
 

@@ -6,7 +6,9 @@ const Experience = () => {
         <div className="container bg-base">
             <div className="grid mb-20">
                 <div className="py-19 text-black" id="experience">
-                    <div className="font-extrabold text-5xl mb-10 ml-10">Experience</div>
+                    <div className="grid place-items-center">
+                    <div className="font-extrabold text-5xl mb-10">Experience</div>
+                    </div>
                     <hr />
                     <div>
                         <div className="grid grid-cols-2">
