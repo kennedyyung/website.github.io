@@ -7,13 +7,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'base': '#f0f7f4',
+      'base': '#fcfcfc',
       'nav': '#627c85',
-      'button': '#c5979d',
-      'txt': '#6699cc',
+      'button': '#FFC1CF',
+      'txt': '#67597A',
       'green-grey': '#35524a',
       'white': '#ffffff',
-      'black': '#000000'
+      'black': '#000000',
+      'sidebar': '#84D2F6',
     },
     extend: {
       gridTemplateColumns: {

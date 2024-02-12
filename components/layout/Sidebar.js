@@ -13,15 +13,15 @@ const Sidebar = ({ open, setOpen }) => {
     <div
       className={classNames({
         "flex flex-col justify-between": true, // layout
-        "bg-green-grey text-white": true, // colors
-        "md:w-full md:sticky md:top-16 md:z-0 top-0 z-20 fixed": true, // positioning
+        "bg-sidebar text-black": true, // colors
+        "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, // positioning
         "md:h-[calc(100vh_-_64px)] h-full w-[300px]": true, // for height and width
         "transition-transform .3s ease-in-out md:-translate-x-0": true, //animations
         "-translate-x-full ": !open //hide sidebar to the left when closed
       })}
       ref={ref}
     >
-      <nav className="md:sticky top-0 md:top-16 bg-green-grey">
+      <nav className="md:sticky top-0 md:top-1 bg-sidebar">
         {/* nav items */}
         <div className="flex items-center justify-center mt-10">
         <Image
@@ -33,7 +33,7 @@ const Sidebar = ({ open, setOpen }) => {
         />
           </div>
 
-          <div className="font-bold text-lg text-white flex items-center justify-center mt-2 mb-2 ">Kennedy Yung</div>
+          <div className="font-bold text-lg text-black flex items-center justify-center mt-2 mb-2 ">Kennedy Yung</div>
         <div className="grid grid-flow-row flex items-center justify-center">
         <div>
             <Link href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer" target="_blank">
@@ -44,13 +44,13 @@ const Sidebar = ({ open, setOpen }) => {
             </Link>
           </div>
         </div>
-        <ul className="py-2 flex flex-col gap-2">
+        <ul className="py-1 flex flex-col gap-1">
           {defaultNavItems.map((item, index) => {
             return (
               <a key={index} href={item.href}>
                 <li
                   className={classNames({
-                    "text-white hover:bg-indigo-900": true, //colors
+                    "text-black hover:bg-indigo-900": true, //colors
                     "flex gap-4 items-center ": true, //layout
                     "transition-colors duration-300": true, //animation
                     "rounded-md p-2 mx-2": true //self style
