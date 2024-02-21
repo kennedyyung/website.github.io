@@ -19,17 +19,17 @@ export const defaultNavItems = [
   },
   {
     label: "Education",
-    href: "#education",
+    href: "/#education",
     icon: <BookOpenIcon className="w-6 h-6" />,
   },
   {
     label: "Experience",
-    href: "#experience",
+    href: "/#experience",
     icon: <BriefcaseIcon className="w-6 h-6" />,
   },
   {
     label: "Projects",
-    href: "#projects",
+    href: "/#projects",
     icon: <RectangleStackIcon className="w-6 h-6" />,
   },
   {
