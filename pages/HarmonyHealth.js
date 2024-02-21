@@ -20,7 +20,7 @@ const HarmonyHealth = () => {
 
         <div className="card w-3/4 bg-txt text-white mt-5 overflow-auto-y">
 <div className="card-body items-center text-center">
-<p>Harmony Health was created during NWHacks 2024. It is a mobile application designed to help users keep track of their own, and loved one's daily health conditions. This application was inspired by our experiences at the doctors office where we cannot remember all of our symptoms from the past week. On top of this shared experience, we recognized that parents or people who are taking care of others in their family are tasked to remember symptoms for more than one person, which created the idea to implement the multiple user function. The app was created on a React app, utilizing React.js, TailwindCSS, and TypeScript.</p>
+<p>Harmony Health was created during NWHacks 2024. It is a mobile application designed to help users keep track of their own, and loved one&apos;s daily health conditions. This application was inspired by our experiences at the doctors office where we cannot remember all of our symptoms from the past week. On top of this shared experience, we recognized that parents or people who are taking care of others in their family are tasked to remember symptoms for more than one person, which created the idea to implement the multiple user function. The app was created on a React app, utilizing React.js, TailwindCSS, and TypeScript.</p>
 
   <div className="flex flex-row">
     <Link href="https://github.com/kennedyyung/Nwhacks2024"rel="noopener noreferrer" target="_blank" className="font-bold underline mr-10">
