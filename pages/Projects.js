@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="container min-h-screen bg-base ">
+    <div className="container bg-base ">
       <div className="grid min-h-screen mt-10">
         <div className="py-15" id="projects">
           <div className="grid place-items-center">
