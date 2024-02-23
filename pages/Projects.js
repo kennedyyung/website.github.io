@@ -95,7 +95,7 @@ const Projects = () => {
             <div className="grid grid-cols-2 place-items-center">
               <Link href="/Pomo">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
-                  <figure><img src="/pomo.PNG" alt="Inteflow" /></figure>
+                  <figure><img src="/pomo.png" alt="Inteflow" /></figure>
 
                   <div className="card-body">
                     <h2 className="card-title">Pomo&apos;s Paradise
