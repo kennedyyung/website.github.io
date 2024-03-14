@@ -74,7 +74,30 @@ const Projects = () => {
                 </div>
               </Link>
 
-              <Link href="/HarvestHub">
+              <Link href="/BudgetBuddies">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
+
+                  <figure><img src="/BudgetBuddies.PNG" alt="BudgetBuddies" /></figure>
+                  <div className="card-body">
+                    <h2 className="card-title">Budget Buddies
+                      <div className="badge bg-white border-white text-black">Mar, 2024</div>
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <div className="badge badge-outline badge-lg text-sm">React.js</div>
+                      <div className="badge badge-outline badge-lg text-sm">TailwindCSS</div>
+                    </div>
+                  </div>
+
+                </div>
+              </Link>
+              
+
+            
+            </div>
+
+            <div className="grid grid-cols-2 place-items-center">
+            <Link href="/HarvestHub">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
                   <figure><img src="/Harvesthub.png" alt="Harvesthub" /></figure>
@@ -90,12 +113,10 @@ const Projects = () => {
 
                 </div>
               </Link>
-            </div>
 
-            <div className="grid grid-cols-2 place-items-center">
               <Link href="/Pomo">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
-                  <figure><img src="/pomo.png" alt="Inteflow" /></figure>
+                  <figure><img src="/pomo.PNG" alt="Inteflow" /></figure>
 
                   <div className="card-body">
                     <h2 className="card-title">Pomo&apos;s Paradise
