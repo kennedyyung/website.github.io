@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const HomePage = () => {
   return (
-    <div className="container  bg-base">
+    <div className="container  bg-base dark:bg-dark_base">
       <div className="py-20">
-        <div className="font-extrabold text-5xl text-black mb-10 ml-20">Hi, welcome to my website!</div>
+        <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10 ml-20">Hi, welcome to my website!</div>
 
         <div className="chat chat-start flex justify-start ml-20">
           <div className="justify-start chat-bubble bg-button text-black">
@@ -17,8 +17,8 @@ const HomePage = () => {
 
 
 
-        <p className="ml-20 font-extrabold mt-5 text-black mb-1">Languages I have experience in:</p>
-        <div class="grid-flow-col ml-20 text-black">
+        <p className="ml-20 font-extrabold mt-5 text-black dark:text-dark_text mb-1">Languages I have experience in:</p>
+        <div class="grid-flow-col ml-20 text-black dark:text-dark_text">
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">Java</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">CSS</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">C++</div>
@@ -34,8 +34,8 @@ const HomePage = () => {
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 hover:bg-txt">PHP</div>
         </div>
 
-        <p className="ml-20 font-extrabold mt-5 text-black mb-1">Languages I&apos;m learning:</p>
-        <div class="grid-flow-col ml-20 text-black">
+        <p className="ml-20 font-extrabold mt-5 text-black dark:text-dark_text mb-1">Languages I&apos;m learning:</p>
+        <div class="grid-flow-col ml-20 text-black dark:text-dark_text">
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">C#</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">React Native</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">Chakra UI</div>

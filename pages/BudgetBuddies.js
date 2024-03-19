@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const BudgetBuddies = () => {
     return (
-    <div className="container bg-base flex flex-col items-center">
-    <h1 className="font-bold text-2xl text-black mt-10">Budget Buddies</h1>
+    <div className="container bg-base dark:bg-dark_base flex flex-col items-center">
+    <h1 className="font-bold text-2xl text-black dark:text-dark_text mt-10">Budget Buddies</h1>
     
     
     <div className="card w-3/4 bg-txt text-white mt-5">

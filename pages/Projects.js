@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="container bg-base ">
+    <div className="container bg-base dark:bg-dark_base">
       <div className="grid min-h-screen mt-10">
         <div className="py-15" id="projects">
           <div className="grid place-items-center">
-            <div className="font-extrabold text-5xl text-black mb-10">Projects</div>
+            <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Projects</div>
           </div>
           <hr />
 
           <div className="grid grid-rows-3 grid-flow-row gap-5 mt-10">
-            <div className="grid grid-cols-2 place-items-center">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
               <Link href="/Inteflow">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/Inteflow.png" alt="Inteflow" /></figure>
@@ -54,7 +54,7 @@ const Projects = () => {
               </Link>
             </div>
 
-            <div className="grid grid-cols-2 place-items-center">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
               <Link href="/HarmonyHealth">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
@@ -96,7 +96,7 @@ const Projects = () => {
             
             </div>
 
-            <div className="grid grid-cols-2 place-items-center">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
             <Link href="/HarvestHub">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
@@ -142,7 +142,7 @@ const Projects = () => {
 
             <div>
               <Link href="/Archived">
-                <h1 className=" mt-5 text-black underline">School Projects</h1>
+                <h1 className=" mt-5 text-black dark:text-dark_text underline">School Projects</h1>
               </Link>
 
             </div>

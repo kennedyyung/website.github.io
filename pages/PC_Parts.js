@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const PC_Parts = () => {
     return (
-        <div className="container bg-base flex flex-col items-center">
-            <h1 className="font-bold text-2xl text-black">PC Parts Database</h1>
+        <div className="container bg-base dark:bg-dark_base flex flex-col items-center">
+            <h1 className="font-bold text-2xl text-black dark:text-dark_text">PC Parts Database</h1>
 
             <div className="card w-3/4 bg-txt text-black">
                 <div className="card-body ote,s-center text-center">

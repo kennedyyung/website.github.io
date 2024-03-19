@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const Education = () => {
     return (
-        <div className="container bg-base">
+        <div className="container bg-base dark:bg-dark_base">
             <div className="grid mb-20">
                 <div className="py-15" id="education">
                     <div className="grid place-items-center">
-                    <div className="font-extrabold text-5xl text-black mb-10">Education</div>
+                    <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Education</div>
                     </div>
                     <hr />
 
 
-                    <div className="card-body px-10 grid grid-cols-6 gap-2 text-black">
+                    <div className="card-body px-10 grid grid-cols-6 gap-2 text-black dark:text-dark_text">
                         <div className="col-start-2 col-span-2 ">
                             <Image
                                 src="/ubc.png"
@@ -30,9 +30,9 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <h3 className="font-bold text-2xl ml-10 text-black mb-2">Relevant Courses</h3>
+                    <h3 className="font-bold text-2xl ml-10 text-black dark:text-dark_text mb-2">Relevant Courses</h3>
                     
-                    <div className="grid grid-cols-2 gap-2 text-black">
+                    <div className="grid grid-cols-2 gap-2 text-black dark:text-dark_text">
                         <div className="col-start-1">
                             <p className="ml-10 font-bold italic">CPSC 320: Intermediate Algorithm and Design</p>
                             <ul className="list-disc list-inside ml-10">

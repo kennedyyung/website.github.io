@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Experience = () => {
     return (
-        <div className="container bg-base">
+        <div className="container bg-base dark:bg-dark_base">
             <div className="grid mb-20">
-                <div className="py-19 text-black" id="experience">
+                <div className="py-19 text-black dark:text-dark_text" id="experience">
                     <div className="grid place-items-center">
                     <div className="font-extrabold text-5xl mb-10">Experience</div>
                     </div>
