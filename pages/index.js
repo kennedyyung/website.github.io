@@ -47,6 +47,8 @@ import HomePage from "./HomePage";
 import Projects from "./Projects";
 import Education from "./Education";
 import Experience from "./Experience";
+import ContactForm from "./ContactForm";
+
 
 
 const index = () => {
@@ -56,6 +58,7 @@ const index = () => {
       <Education/>
       <Experience/>
       <Projects/>
+      <ContactForm/>
     </main>
 
 
