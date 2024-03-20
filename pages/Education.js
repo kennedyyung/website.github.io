@@ -8,7 +8,7 @@ const Education = () => {
             <div className="grid mb-20">
                 <div className="py-15" id="education">
                     <div className="grid place-items-center">
-                    <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Education</div>
+                        <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Education</div>
                     </div>
                     <hr />
 
@@ -31,17 +31,17 @@ const Education = () => {
                     </div>
 
                     <h3 className="font-bold text-2xl ml-10 text-black dark:text-dark_text mb-2">Relevant Courses</h3>
-                    
-                    <div className="grid grid-cols-2 gap-2 text-black dark:text-dark_text">
-                        <div className="col-start-1">
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 320: Intermediate Algorithm and Design</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Systematic study of basic concepts and techniques in the design and analysis of algorithms</li>
                                 <li>Topics include: models of computation, choice of data structures, graph-theoretic, algebraic, and text processing algorithms.</li>
                             </ul>
                         </div>
-                        
-                        <div className="col-start-2">
+
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 304: Introduction to Relational Databases</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Overview of database systems, ER models, logical database design and normalization,formal relational query languages, SQL, and data warehouses</li>
@@ -49,7 +49,10 @@ const Education = () => {
                                 <li>Database System: Oracle</li>
                             </ul>
                         </div>
-                        <div className="col-start-1">
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 213: Introduction to Computer Systems</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Software architecture, operating systems, and I/O architectures</li>
@@ -57,7 +60,7 @@ const Education = () => {
                                 <li>Language: C</li>
                             </ul>
                         </div>
-                        <div className="col-start-2">
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 210: Software Construction</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Design, development, and analysis of robust software components</li>
@@ -65,8 +68,10 @@ const Education = () => {
                                 <li>Language: Java</li>
                             </ul>
                         </div>
-                        
-                        <div className="col-start-1">
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 221: Basic Algorithms and Data Structures</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Algorithm analysis methods, serarching and sorting algorithms, basic data structures, graphs and concurrency</li>
@@ -74,12 +79,14 @@ const Education = () => {
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </div>
 
         </div>
+
+        //     </div >
+
+        // </div >
     );
 };
 
