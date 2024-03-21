@@ -43,11 +43,11 @@
 
 // export default HomePage
 import React from "react";
-import HomePage from "./pages/HomePage";
-import Projects from "./pages/Projects";
-import Education from "./pages/Education";
-import Experience from "./pages/Experience";
-import ContactForm from "./pages/ContactForm";
+import HomePage from "./HomePage";
+import Projects from "./Projects";
+import Education from "./Education";
+import Experience from "./Experience";
+import ContactForm from "./ContactForm";
 
 
 

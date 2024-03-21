@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/kennedyyung.github.io',
+
   reactStrictMode: true,
   swcMinify: true,
   images: {
