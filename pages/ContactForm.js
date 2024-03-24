@@ -34,7 +34,11 @@ const ContactForm = () => {
 
   return (
       <div className="container bg-base dark:bg-dark_base">
-        <div className=" mt-10">
+        <div className="grid place-items-center">
+            <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Contact Me </div>
+        </div>
+        <hr />
+        <div className="mt-5">
       <form ref={form} onSubmit={sendEmail}>
         <div className="grid grid-flow-row ml-5 text-black dark:text-dark_text">
         <label>Name</label>
