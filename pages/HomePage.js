@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image"
+import ThemeSwitcher from "components/layout/ThemeSwitcher";
 
 const HomePage = () => {
   return (

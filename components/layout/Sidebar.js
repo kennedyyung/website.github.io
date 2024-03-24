@@ -22,7 +22,7 @@ const Sidebar = ({ open, setOpen }) => {
       })}
       ref={ref}
     >
-      <nav className="md:sticky top-0 md:top-1 bg-sidebar">
+      <nav className="md:sticky mt-10 md:top-1 ">
         {/* nav items */}
         <div className="flex items-center justify-center mt-10">
         <Image
