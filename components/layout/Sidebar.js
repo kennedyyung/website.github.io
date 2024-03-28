@@ -13,7 +13,7 @@ const Sidebar = ({ open, setOpen }) => {
     <div
       className={classNames({
         "flex flex-col justify-between": true, // layout
-        "bg-sidebar dark:bg-dark_nav text-black": true, // colors
+        "bg-sidebar dark:bg-sidebar text-black": true, // colors
         "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, // positioning
         "md:h-screen w-[300px]": true, // for height and width
         "transition-transform .3s ease-in-out md:-translate-x-0": true, //animations
