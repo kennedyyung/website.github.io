@@ -19,7 +19,7 @@ const Projects = () => {
                   <figure><img src="/Inteflow.png" alt="Inteflow" /></figure>
                   <div className="card-body">
                     <h2 className="card-title ">Inteflow
-                      <div className="badge border-white bg-white text-black">Aug, 2023</div>
+                      <div className="badge border-white bg-white text-black">Aug, 2023</div>🏆
                     </h2>
                     <p></p>
                     <div className="card-actions justify-end">
@@ -38,7 +38,7 @@ const Projects = () => {
 
                   <div className="card-body">
                     <h2 className="card-title ">Kizuna
-                      <div className="badge bg-white border-white text-black">Jan, 2023</div>
+                      <div className="badge bg-white border-white text-black">Jan, 2023</div>🏆
                     </h2>
                     <p></p>
                     <div className="card-actions justify-end">
@@ -61,7 +61,7 @@ const Projects = () => {
                   <figure><img src="/BudgetBuddies.PNG" alt="BudgetBuddies" /></figure>
                   <div className="card-body">
                     <h2 className="card-title">Budget Buddies
-                      <div className="badge bg-white border-white text-black">Mar, 2024</div>
+                      <div className="badge bg-white border-white text-black">Mar, 2024</div>🏆
                     </h2>
                     <p></p>
                     <div className="card-actions justify-end">

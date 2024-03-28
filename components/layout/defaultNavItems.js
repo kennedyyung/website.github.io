@@ -8,6 +8,7 @@ import {
   HomeIcon,
   DocumentTextIcon,
   RectangleStackIcon,
+  InboxIcon,
 } from "@heroicons/react/24/outline";
 // import { NavItem } from "./Sidebar";
 
@@ -33,6 +34,11 @@ export const defaultNavItems = [
     icon: <RectangleStackIcon className="w-6 h-6" />,
   },
   {
+    label: "Contact Me",
+    href: "/#contact",
+    icon: <InboxIcon className="w-6 h-6" />,
+  },
+  {
     label: "Resume",
     href: "https://drive.google.com/file/d/1pe16qBdHoogpqQQX-k_fn-ToBVNM7TBD/view?usp=sharing",
     rel: "noopener noreferrer",
@@ -40,5 +46,6 @@ export const defaultNavItems = [
     icon: <DocumentTextIcon className="w-6 h-6" />,
     
   },
+
 
 ];

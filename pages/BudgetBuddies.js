@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const BudgetBuddies = () => {
     return (
-    <div className="container bg-base dark:bg-dark_base flex flex-col items-center">
+    <div className="container min-h-screen bg-base dark:bg-dark_base flex flex-col items-center mt-10">
     <h1 className="font-bold text-2xl text-black dark:text-dark_text mt-10">Budget Buddies</h1>
     
     

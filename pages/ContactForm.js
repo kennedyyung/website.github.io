@@ -33,7 +33,7 @@ const ContactForm = () => {
 
 
   return (
-      <div className="container bg-base dark:bg-dark_base">
+      <div className="container bg-base dark:bg-dark_base " id="contact">
         <div className="grid place-items-center">
             <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Contact Me </div>
         </div>
