@@ -9,7 +9,7 @@ const BudgetBuddies = () => {
     <div className="card w-3/4 bg-txt text-white mt-5">
      <div className="card-body items-center text-center">
     <p> Arc&apos;Quest is the winner of YouCode x Arc&apos;teryx 2024</p>
-    <p> It is an omnichannel mobile application that enhances Arc&apos;teryx's existing app functionality by integrating incentives and features designed to foster outdoor activities, wellness, and community engagement.</p>
+    <p> It is an omnichannel mobile application that enhances Arc&apos;teryx&apos;s existing app functionality by integrating incentives and features designed to foster outdoor activities, wellness, and community engagement.</p>
 
       <div className="flex flex-row">
         <Link href="https://github.com/ktran003/cmdf"rel="noopener noreferrer" target="_blank" className="font-bold underline mr-10">
