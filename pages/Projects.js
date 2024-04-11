@@ -12,10 +12,50 @@ const Projects = () => {
           </div>
           <hr />
 
-          <div className="grid grid-rows-3 grid-flow-row gap-5 mt-10 justify-center">
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 ">
-              <Link href="/Inteflow">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white mr-10">
+          <div className="grid grid-rows-3 grid-flow-row gap-5 mt-10 ">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center ">
+              <Link href="/ArcQuest">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
+                  <figure><img src="/Arc'Quest.png" alt="ArcQuest" /></figure>
+                  <div className="card-body">
+                    <h2 className="card-title ">Arc'Quest
+                      <div className="badge border-white bg-white text-black">Apr, 2024</div>🏆
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <div className="badge badge-outline badge-lg text-sm">React Native</div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </Link>
+
+              <Link href="/BudgetBuddies">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
+
+                  <figure><img src="/BudgetBuddies.PNG" alt="BudgetBuddies" /></figure>
+                  <div className="card-body">
+                    <h2 className="card-title">Budget Buddies
+                      <div className="badge bg-white border-white text-black">Mar, 2024</div>🏆
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <div className="badge badge-outline badge-lg text-sm">React.js</div>
+                      <div className="badge badge-outline badge-lg text-sm">TailwindCSS</div>
+                    </div>
+                  </div>
+
+                </div>
+              </Link>
+
+              
+            </div>
+
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
+            <Link href="/Inteflow">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/Inteflow.png" alt="Inteflow" /></figure>
                   <div className="card-body">
                     <h2 className="card-title ">Inteflow
@@ -31,9 +71,8 @@ const Projects = () => {
                 </div>
 
               </Link>
-
-              <Link href="/Kizuna">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ml-10">
+            <Link href="/Kizuna">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ">
                   <figure><img src="/kizuna.jpg" alt="Kizuna" /></figure>
 
                   <div className="card-body">
@@ -52,28 +91,15 @@ const Projects = () => {
 
                 </div>
               </Link>
+              
+
+
+            
             </div>
 
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
-            <Link href="/BudgetBuddies">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white mr-10">
-
-                  <figure><img src="/BudgetBuddies.PNG" alt="BudgetBuddies" /></figure>
-                  <div className="card-body">
-                    <h2 className="card-title">Budget Buddies
-                      <div className="badge bg-white border-white text-black">Mar, 2024</div>🏆
-                    </h2>
-                    <p></p>
-                    <div className="card-actions justify-end">
-                      <div className="badge badge-outline badge-lg text-sm">React.js</div>
-                      <div className="badge badge-outline badge-lg text-sm">TailwindCSS</div>
-                    </div>
-                  </div>
-
-                </div>
-              </Link>
-              <Link href="/HarmonyHealth">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ml-10">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
+            <Link href="/HarmonyHealth">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
                   <figure><img src="/HarmonyHealth.png" alt="HarmonyHealth" /></figure>
                   <div className="card-body">
@@ -91,13 +117,8 @@ const Projects = () => {
                 </div>
               </Link>
 
-
-            
-            </div>
-
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
-            <Link href="/HarvestHub">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white mr-10">
+              <Link href="/HarvestHub">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
                   <figure><img src="/Harvesthub.png" alt="Harvesthub" /></figure>
                   <div className="card-body">
@@ -112,9 +133,11 @@ const Projects = () => {
 
                 </div>
               </Link>
-
-              <Link href="/Pomo">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ml-10">
+            </div>
+            
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
+            <Link href="/Pomo">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/pomo.PNG" alt="Inteflow" /></figure>
 
                   <div className="card-body">
@@ -132,6 +155,27 @@ const Projects = () => {
                 </div>
 
               </Link>
+
+              {/* <Link href="/Kizuna">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ml-10">
+                  <figure><img src="/kizuna.jpg" alt="Kizuna" /></figure>
+
+                  <div className="card-body">
+                    <h2 className="card-title ">Kizuna
+                      <div className="badge bg-white border-white text-black">Jan, 2023</div>🏆
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+
+                      <div className="badge badge-outline badge-lg text-sm">React.js</div>
+                      <div className="badge badge-outline badge-lg text-sm">CSS</div>
+                      <div className="badge badge-outline badge-lg text-sm">HTML</div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </Link> */}
             </div>
 
 
