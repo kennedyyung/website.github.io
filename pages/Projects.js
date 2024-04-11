@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/Arc'Quest.png" alt="ArcQuest" /></figure>
                   <div className="card-body">
-                    <h2 className="card-title ">Arc'Quest
+                    <h2 className="card-title ">Arc&apos;Quest
                       <div className="badge border-white bg-white text-black">Apr, 2024</div>🏆
                     </h2>
                     <p></p>
