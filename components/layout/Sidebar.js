@@ -26,8 +26,8 @@ const Sidebar = ({ open, setOpen }) => {
         {/* nav items */}
         <div className="flex items-center justify-center mt-10">
         <Image
-            src="/pfp.jpg" // Provide the correct path to your image
-            height={200}
+            src="/icon.jpg" // Provide the correct path to your image
+            height={100}
             width={200}
             alt="profile image"
             className="rounded-full"
