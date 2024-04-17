@@ -1,10 +1,25 @@
 import React from "react";
 import Image from "next/image"
 import ThemeSwitcher from "components/layout/ThemeSwitcher";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
     <div className="container  bg-base dark:bg-dark_base">
+            <Head>
+        <title>Home Page</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-064E3270RM"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-064E3270RM');
+            `
+          }}
+        />
+      </Head>
       <div className="py-20">
         <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10 ml-20">Hi, welcome to my website!</div>
 
