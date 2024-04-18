@@ -16,7 +16,7 @@ const ContactForm = () => {
       .then(
 
         (result) => {
-                      setStateMessage('Message sent! I&apos;ll get back to you as soon as I can :)');
+                      setStateMessage("Message sent! I'll get back to you as soon as I can :)");
                       setTimeout(() => {
                         setStateMessage(null);
                       }, 5000); // hide message after 5 seconds
@@ -42,14 +42,14 @@ const ContactForm = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div className="grid grid-flow-row ml-5 text-black dark:text-dark_text">
         <label>Name</label>
-        <input type="text" name="user_name" class=" mb-2 bg-input border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Name" required />
+        <input type="text" name="user_name" class=" mb-2 bg-input text-black border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Name" required />
 
         <label>Email</label>
 
-        <input type="text" name="user_email" class="mb-2 bg-input border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Email" required />
+        <input type="text" name="user_email" class="mb-2 bg-input text-black border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Email" required />
         <label>Message</label>
 
-        <textarea name="message" rows="4" class="block p-2.5 w-3/4 text-sm bg-input rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Write your message here"></textarea>
+        <textarea name="message" rows="4" class="block p-2.5 w-3/4 text-sm bg-input text-black rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Write your message here"></textarea>
 
         <button type="submit" value="Send"  class="mt-2 mb-3 px-3 bg-txt w-1/5 text-sm font-medium text-center text-white p-2.5 bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Submit</button>
         {stateMessage && <p>{stateMessage}</p>}

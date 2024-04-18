@@ -12,9 +12,11 @@ const Kizuna = () => {
 
             <div className="card w-3/4 bg-txt text-white mt-5">
   <div className="card-body items-center text-center">
-    <p>Kizuna was created during NWHacks 2023, and is a livestreaming web application that 
-                implements LivePeer Studio&apos;s API for video Livestream and on demand to help create stronger communities in real time. This was built with aims to increase exposure for small creators through alleviating the barriers of being a new streamer. The application was created using a React app, with UI implemented through CSS and HTML.</p>
-
+  <p>Awarded LivePeer Best Overall Video Application at nwHacks 2023🏆</p>
+  <p>Kizuna is a livestreaming web application that 
+                implements LivePeer Studio&apos;s API for video Livestream and on demand to help create stronger communities in real time. This was built with aims to increase exposure for small creators through alleviating the barriers of being a new streamer.</p>
+                <p>This web application was constructed with React, incorporating React Router for seamless webpage navigation and leveraging Livepeer&apos;s API to enable users to upload content and host livestreams on our video platform. The UI design was crafted in Figma and drew inspiration from Twitch. Based on insights gathered from a user research survey, we made adjustments to the chat and sidebar to enhance the overall user experience. Notable design enhancements include the addition of a &quot;Friends&quot; page, introducing a social dimension that fosters interaction among platform users, both streamers and viewers, thereby cultivating more meaningful connections.</p>
+      
       <div className="flex flex-row">
         <Link href="https://github.com/jn-han/NWHacks2023"rel="noopener noreferrer" target="_blank" className="font-bold underline mr-10">
           Github
