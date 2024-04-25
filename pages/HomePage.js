@@ -26,8 +26,8 @@ const HomePage = () => {
         <div className="chat chat-start flex justify-start ml-20">
           <div className="justify-start chat-bubble bg-button text-black dark:bg-dark_button">
             <div className="text-xl font-bold">About me</div>
-            <p>I&apos;m Kennedy, I&apos;m in Vancouver, BC and currently in my third year at the University of British Columbia! I&apos;m pursuing a bachelors of science with a major in mathematics. Aside from school I enjoy playing basketball, drawing, baking, and playing video games. Right now I&apos;m trying to build on my CSS/Tailwind and Javascript skills on my own, and am hoping to learn Python next!</p>
-            <p>This website is still under construction but I hope you enjoy what I have so far :)</p>
+            <p>I&apos;m Kennedy, currently in my third year at the University of British Columbia pursuing a bachelors of science with a major in mathematics. When im not studying, I love playing basketball, drawing, baking, and playing video games. Right now I&apos;m still working on my Javascript skills, and I plan to learn Python this summer!</p>
+            <p>This website is still under construction but I hope you enjoy what you see so far :)</p>
           </div>
         </div>
 
