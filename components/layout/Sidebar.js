@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { defaultNavItems } from "./defaultNavItems"
 import { useOnClickOutside } from "usehooks-ts"
+
 const Sidebar = ({ open, setOpen }) => {
   const ref = useRef(null)
   useOnClickOutside(ref, e => {
@@ -15,7 +16,7 @@ const Sidebar = ({ open, setOpen }) => {
         "flex flex-col justify-between": true, // layout
         "bg-sidebar dark:bg-sidebar text-black": true, // colors
         "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, // positioning
-        "md:h-screen w-[300px]": true, // for height and width
+        "md:h-screen w-[300px] overflow-y-auto": true, // for height and width
         "transition-transform .3s ease-in-out md:-translate-x-0": true, //animations
         "-translate-x-full ": !open //hide sidebar to the left when closed
         
