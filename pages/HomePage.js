@@ -57,7 +57,6 @@ const HomePage = () => {
         <div class="grid-flow-col ml-20 text-black dark:text-dark_text">
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">C#</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">React Native</div>
-          <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">Chakra UI</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">TypeScript</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 hover:bg-txt">Python</div>
         </div>
