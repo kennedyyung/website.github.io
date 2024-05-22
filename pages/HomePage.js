@@ -26,7 +26,7 @@ const HomePage = () => {
         <div className="chat chat-start flex justify-start ml-20">
           <div className="justify-start chat-bubble bg-button text-black dark:bg-dark_button">
             <div className="text-xl font-bold">About me</div>
-            <p>I&apos;m Kennedy, currently in my third year at the University of British Columbia pursuing a bachelors of science with a major in mathematics. When im not studying, I love playing basketball, drawing, baking, and playing video games. Right now I&apos;m still working on my Javascript skills, and I plan to learn Python this summer!</p>
+            <p>I&apos;m Kennedy, currently in my third year at the University of British Columbia pursuing a bachelors of science with a major in mathematics. When im not studying, I love playing basketball, drawing, baking, and playing video games. Right now I&apos;m still working on my Javascript skills, and starting to learn Python this summer!</p>
             <p>This website is still under construction but I hope you enjoy what you see so far :)</p>
           </div>
         </div>

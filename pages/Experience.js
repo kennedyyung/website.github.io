@@ -10,6 +10,24 @@ const Experience = () => {
                     <div className="font-extrabold text-5xl mb-10">Experience</div>
                     </div>
                     <hr />
+                    
+                    <div>
+                        <div className="grid grid-cols-2">
+                        <h1 className="font-bold text-xl ml-10 mt-5 ">Front-End Web Developer</h1>
+                        <p className="flex justify-end mr-10 mt-5 ">May 2024 - present</p>
+                        </div>
+                        <p className="font-bold italic ml-10">UBC BEST</p>
+
+                            <ul className="list-disc list-inside ml-10">
+                            <li>Utilizing PHP, CSS, Node.js, MariaDB, and Drupal to create and maintain 7 websites</li>
+                                <li> Collaborating in a team environment using Agile methodologies to efficiently manage timelines and deliverables</li>
+                                <li> Leveraging Atlassian Confluence and Jira, Git, and Bitbucket for project tracking and source code management to 
+                                    enhance workflow </li>
+                                <li> Technology Stack: PHP, CSS, Node.js, MariaDB, Drupal, Atlassian products</li>
+                            </ul>
+
+                    </div>
+
                     <div>
                         <div className="grid grid-cols-2">
                         <h1 className="font-bold text-xl ml-10 mt-5 ">Software Engineer</h1>

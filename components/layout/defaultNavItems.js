@@ -40,7 +40,7 @@ export const defaultNavItems = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/1UqQOdgv2EHyKyYEOz7Dgw9-kZ4Oxr_Wa/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1KsULoZlXs880M5bnK3rAkRvukFCvn2q-/view?usp=sharing",
     rel: "noopener noreferrer",
     target: "_blank",
     icon: <DocumentTextIcon className="w-6 h-6" />,
