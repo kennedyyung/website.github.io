@@ -13,16 +13,17 @@ const Experience = () => {
                     
                     <div>
                         <div className="grid grid-cols-2">
-                        <h1 className="font-bold text-xl ml-10 mt-5 ">Front-End Web Developer</h1>
+                        <h1 className="font-bold text-xl ml-10 mt-5 ">Front-End Web Developer Intern</h1>
                         <p className="flex justify-end mr-10 mt-5 ">May 2024 - present</p>
                         </div>
-                        <p className="font-bold italic ml-10">UBC BEST</p>
+                        <p className="font-bold italic ml-10">UBC Faculty of Applied Science</p>
 
                             <ul className="list-disc list-inside ml-10">
-                            <li>Utilizing PHP, CSS, Node.js, MariaDB, and Drupal to create and maintain 7 websites</li>
-                                <li> Collaborating in a team environment using Agile methodologies to efficiently manage timelines and deliverables</li>
-                                <li> Leveraging Atlassian Confluence and Jira, Git, and Bitbucket for project tracking and source code management to 
-                                    enhance workflow </li>
+                            <li> Developed and maintained 7 websites using PHP, CSS, Node.js, MariaDB, and Drupal </li>
+                                <li> Collaborated using Agile methodologies to efficiently manage timelines and deliverables</li>
+                                <li> Streamlined project workflow with Atlassian Confluence, Jira, Git, and Bitbucket </li>
+                                <li> Spearheaded client meetings to ensure their needs were met throughout the website development process</li>
+                                <li> Boosted engagement across multiple faculty websites by 15+ %</li>
                                 <li> Technology Stack: PHP, CSS, Node.js, MariaDB, Drupal, Atlassian products</li>
                             </ul>
 
@@ -33,13 +34,13 @@ const Experience = () => {
                         <h1 className="font-bold text-xl ml-10 mt-5 ">Software Engineer</h1>
                         <p className="flex justify-end mr-10 mt-5 ">October 2023 - present</p>
                         </div>
-                        <p className="font-bold italic ml-10">UBC BEST</p>
+                        <p className="font-bold italic ml-10">UBC BEST Design Team</p>
 
                             <ul className="list-disc list-inside ml-10">
                             <li>Contributing to a biomedical engineering student team constructing a data-driven glove paired with a mobile 
 application integrated with mobile games to aid the rehabilitation process of Multiple Sclerosis patients by tracking 
 hand dexterity and progress </li>
-                                <li> Implemented the mobile Android application’s UI by creating customized components using React Native</li>
+                                <li> Implemented the mobile Android application&apos;s UI by creating customized components using React Native</li>
                                 <li> Enhancing functionality and resolving technical problems within the game coded in C# through Unity </li>
                                 <li> Created vectors and a background image for one of the games</li>
                                 <li> Technology Stack: React Native, C# and used Unity3D</li>
