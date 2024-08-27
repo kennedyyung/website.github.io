@@ -19,12 +19,14 @@ const Experience = () => {
                         <p className="font-bold italic ml-10">UBC Faculty of Applied Science</p>
 
                             <ul className="list-disc list-inside ml-10">
-                            <li> Developed and maintained 7 websites using PHP, CSS, Node.js, MariaDB, and Drupal </li>
-                                <li> Collaborated using Agile methodologies to efficiently manage timelines and deliverables</li>
-                                <li> Streamlined project workflow with Atlassian Confluence, Jira, Git, and Bitbucket </li>
-                                <li> Spearheaded client meetings to ensure their needs were met throughout the website development process</li>
-                                <li> Boosted engagement across multiple faculty websites by 15+ %</li>
-                                <li> Technology Stack: PHP, CSS, Node.js, MariaDB, Drupal, Atlassian products</li>
+                                <li> Developed and maintained 5 websites using PHP, CSS, Node.js, MariaDB, and Drupal  </li>
+                                <li> Collaborated with developers, designers, and project managers using Agile methodologies to efficiently manage timelines </li>
+                                <li> Streamlined workflow with Atlassian Confluence, Jira, and Git, following Software Development Life Cycle(SDLC) practices </li>
+                                <li> Reviewed peer code submissions, implementing a feedback loop; resulted in improved code and expedited timelines</li>
+                                <li> Led client meetings to ensure alignment with their needs throughout the website development process </li>
+                                <li> Increased engagement across multiple faculty websites by 15% through targeted improvements</li>
+                                <li> Developed customizable Twig templates for website content in Drupal, reducing website creation time</li>
+                                <li> Technology Stack: PHP and Twig templates, CSS and TailwindCSS, Node.js, MariaDB, Drupal, Atlassian products</li>
                             </ul>
 
                     </div>
@@ -37,13 +39,11 @@ const Experience = () => {
                         <p className="font-bold italic ml-10">UBC BEST Design Team</p>
 
                             <ul className="list-disc list-inside ml-10">
-                            <li>Contributing to a biomedical engineering student team constructing a data-driven glove paired with a mobile 
-application integrated with mobile games to aid the rehabilitation process of Multiple Sclerosis patients by tracking 
-hand dexterity and progress </li>
-                                <li> Implemented the mobile Android application&apos;s UI by creating customized components using React Native</li>
-                                <li> Enhancing functionality and resolving technical problems within the game coded in C# through Unity </li>
-                                <li> Created vectors and a background image for one of the games</li>
-                                <li> Technology Stack: React Native, C# and used Unity3D</li>
+                                <li> Contributed to a biomedical engineering team in constructing a data-driven glove with a companion app and games for Multiple Sclerosis rehabilitation, focusing on hand dexterity and proving progress tracking</li>
+                                <li> Established a modular UI component library with React Native for the application, improving development speed</li>
+                                <li> Enhanced functionality and resolved technical problems within the games coded in C# through Unity </li>
+                                <li> Designed and created vectors and a background image for one of the games </li>
+                                <li> Technology Stack: React Native, C# and used Unity3D application</li>
                             </ul>
 
                     </div>
@@ -55,8 +55,7 @@ hand dexterity and progress </li>
                         <p className="font-bold italic ml-10">UBC Computer Science Society</p>
                             <ul className="list-disc list-inside ml-10">
                             <li>Collaborating within a team to develop a website for UBC Tennis Circle Club</li>
-                                <li>Developing a website on a Next.js application with Typescript, using MongoDB for the database, and ChakraUI for 
-UI framework</li>
+                                <li>Programmed using Next.js and Typescript, with MongoDB for the database, and ChakraUI for UI framework</li>
                             </ul>
                     </div>
 

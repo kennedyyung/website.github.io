@@ -26,7 +26,7 @@ const Education = () => {
                             <h1 className="font-bold text-2xl mt-9">Bachelors of Science </h1>
                             <h2 className="text-xl italic">Major in Mathematics</h2>
                             <p>University of British Columbia</p>
-                            <p>2021-2025</p>
+                            <p>2021-2026</p>
                         </div>
                     </div>
 
