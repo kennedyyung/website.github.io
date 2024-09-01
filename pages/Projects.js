@@ -156,26 +156,6 @@ const Projects = () => {
 
               </Link>
 
-              {/* <Link href="/Kizuna">
-                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ml-10">
-                  <figure><img src="/kizuna.jpg" alt="Kizuna" /></figure>
-
-                  <div className="card-body">
-                    <h2 className="card-title ">Kizuna
-                      <div className="badge bg-white border-white text-black">Jan, 2023</div>🏆
-                    </h2>
-                    <p></p>
-                    <div className="card-actions justify-end">
-
-                      <div className="badge badge-outline badge-lg text-sm">React.js</div>
-                      <div className="badge badge-outline badge-lg text-sm">CSS</div>
-                      <div className="badge badge-outline badge-lg text-sm">HTML</div>
-
-                    </div>
-                  </div>
-
-                </div>
-              </Link> */}
             </div>
 
 
