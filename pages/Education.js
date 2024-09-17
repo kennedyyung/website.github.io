@@ -34,13 +34,23 @@ const Education = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
                         <div>
+                            <p className="ml-10 font-bold italic">CPSC 330: Applied Machine Learning</p>
+                            <ul className="list-disc list-inside ml-10">
+                                <li>Description Application of machine learning tools, with an emphasis on solving practical problems</li>
+                                <li>Topics include: Data cleaning, feature extraction, supervised and un-supervised machine learning, reproducible workflows, and communicating results</li>
+                            </ul>
+                        </div>
+
+                        <div>
                             <p className="ml-10 font-bold italic">CPSC 320: Intermediate Algorithm and Design</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Systematic study of basic concepts and techniques in the design and analysis of algorithms</li>
                                 <li>Topics include: models of computation, choice of data structures, graph-theoretic, algebraic, and text processing algorithms.</li>
                             </ul>
                         </div>
+                    </div>
 
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
                         <div>
                             <p className="ml-10 font-bold italic">CPSC 304: Introduction to Relational Databases</p>
                             <ul className="list-disc list-inside ml-10">
@@ -49,23 +59,12 @@ const Education = () => {
                                 <li>Database System: Oracle</li>
                             </ul>
                         </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
                         <div>
                             <p className="ml-10 font-bold italic">CPSC 213: Introduction to Computer Systems</p>
                             <ul className="list-disc list-inside ml-10">
                                 <li>Software architecture, operating systems, and I/O architectures</li>
                                 <li>Relationships between application software, operating systems, and computing hardware</li>
                                 <li>Language: C</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p className="ml-10 font-bold italic">CPSC 210: Software Construction</p>
-                            <ul className="list-disc list-inside ml-10">
-                                <li>Design, development, and analysis of robust software components</li>
-                                <li>Computational models, data structures, debugging, and testing</li>
-                                <li>Language: Java</li>
                             </ul>
                         </div>
                     </div>
@@ -76,6 +75,14 @@ const Education = () => {
                             <ul className="list-disc list-inside ml-10">
                                 <li>Algorithm analysis methods, serarching and sorting algorithms, basic data structures, graphs and concurrency</li>
                                 <li>Language: C++</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p className="ml-10 font-bold italic">CPSC 210: Software Construction</p>
+                            <ul className="list-disc list-inside ml-10">
+                                <li>Design, development, and analysis of robust software components</li>
+                                <li>Computational models, data structures, debugging, and testing</li>
+                                <li>Language: Java</li>
                             </ul>
                         </div>
                     </div>
