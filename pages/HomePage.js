@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image"
 import ThemeSwitcher from "components/layout/ThemeSwitcher";
 import Head from "next/head";
+import Typing from 'components/layout/Typing';
 
 const HomePage = () => {
   return (
@@ -21,12 +22,14 @@ const HomePage = () => {
         />
       </Head>
       <div className="py-20">
-        <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10 ml-20">Hi, welcome to my website!</div>
+        <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10 ml-20">
+          <Typing text="Hi, welcome to my website!" delay={100} />
+        </div>
 
         <div className="chat chat-start flex justify-start ml-20">
           <div className="justify-start chat-bubble bg-button text-black dark:bg-dark_button">
             <div className="text-xl font-bold">About me</div>
-            <p>I&apos;m Kennedy! A fourth year at the University of British Columbia pursuing a bachelors of science with a major in mathematics. When im not studying, I love playing basketball, going to the gym, baking, and playing video games. Right now I&apos;m working on my full stack skills through a project, and starting to learn Python through an online course!</p>
+            <p>I&apos;m Kennedy! A fourth year at the University of British Columbia pursuing a bachelors of science with a major in mathematics. When im not studying, I love playing basketball, going to the gym, baking, and playing video games. Right now I&apos;m working on my Python and JavaScript skills through projects and online courses!</p>
             <p>This website is still under construction and always changing but I hope you enjoy what you see so far :)</p>
           </div>
         </div>
@@ -55,7 +58,7 @@ const HomePage = () => {
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 mb-1 hover:bg-txt">R</div>
         </div>
 
-        <p className="ml-20 font-extrabold mt-2 text-black dark:text-dark_text mb-1">Languages and Frameworks I&apos;m learning:</p>
+        <p className="ml-20 font-extrabold mt-2 text-black dark:text-dark_text mb-1">Languages and Frameworks I&apos;m currently working on:</p>
         <div class="grid-flow-col ml-20 text-black dark:text-dark_text">
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">TypeScript</div>
           <div className="badge text-sm badge-lg badge-outline border-txt border-2 mr-1 hover:bg-txt">Python</div>
