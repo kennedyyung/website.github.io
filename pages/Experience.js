@@ -13,7 +13,7 @@ const Experience = () => {
                     
                     <div>
                         <div className="grid grid-cols-2">
-                        <h1 className="font-bold text-xl ml-10 mt-5 ">Front-End Web Developer Intern</h1>
+                        <h1 className="font-bold text-xl ml-10 mt-5 ">Front-End Web Developer</h1>
                         <p className="flex justify-end mr-10 mt-5 ">May 2024 - present</p>
                         </div>
                         <p className="font-bold italic ml-10">UBC Faculty of Applied Science</p>
@@ -32,11 +32,31 @@ const Experience = () => {
                     </div>
 
                     <div>
-                        <div className="grid grid-cols-2">
-                        <h1 className="font-bold text-xl ml-10 mt-5 ">Software Engineer</h1>
-                        <p className="flex justify-end mr-10 mt-5 ">October 2023 - present</p>
+
+                        <h1 className="font-bold text-xl ml-10 mt-5 ">UBC BEST Design Team</h1>
+                        <ul className="list-disc list-inside ml-10">
+                                <li> Biomedical engineering team constructing a data-driven glove with a companion app and games for Multiple Sclerosis rehabilitation, focusing on hand dexterity and progress tracking</li>
+                                <li> Secured second place at Simon Cox Competition 2024</li>
+                        </ul>
+
+
+                        <div className="grid grid-cols-2 mt-2">
+                        <p className="font-bold italic ml-10">M2M: Co-Lead</p>
+                        <p className="flex justify-end mr-10  ">September 2024 - present</p>
                         </div>
-                        <p className="font-bold italic ml-10">UBC BEST Design Team</p>
+
+                            <ul className="list-disc list-inside ml-10">
+                                <li> Overseeing the team's software and hardware development, and external relations</li>
+                                <li> Implemented agile methodologies using Jira as co-lead, optimizing task tracking and team efficiency</li>
+                            </ul>
+
+                    </div>
+
+                    <div>
+                        <div className="grid grid-cols-2">
+                        <p className="font-bold italic ml-10 mt-2">M2M: Software Engineer</p>
+                        <p className="flex justify-end mr-10 ">October 2023 - present</p>
+                        </div>
 
                             <ul className="list-disc list-inside ml-10">
                                 <li> Contributed to a biomedical engineering team in constructing a data-driven glove with a companion app and games for Multiple Sclerosis rehabilitation, focusing on hand dexterity and proving progress tracking</li>

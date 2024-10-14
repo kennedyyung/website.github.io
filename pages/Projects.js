@@ -14,6 +14,24 @@ const Projects = () => {
 
           <div className="grid grid-rows-3 grid-flow-row gap-5 mt-10 ">
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center ">
+            <Link href="/EcoChef">
+                <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
+                  <figure><img src="/ecochef.png" alt="EcoChef" /></figure>
+                  <div className="card-body">
+                    <h2 className="card-title ">EcoChef
+                      <div className="badge border-white bg-white text-black">Sept, 2024</div>
+                    </h2>
+                    <p></p>
+                    <div className="card-actions justify-end">
+                      <div className="badge badge-outline badge-lg text-sm">React Native</div>
+                      <div className="badge badge-outline badge-lg text-sm">Python</div>
+                      <div className="badge badge-outline badge-lg text-sm">AWS Services</div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </Link>
               <Link href="/ArcQuest">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/Arc'Quest.png" alt="ArcQuest" /></figure>
@@ -32,7 +50,13 @@ const Projects = () => {
 
               </Link>
 
-              <Link href="/BudgetBuddies">
+              
+
+              
+            </div>
+
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
+            <Link href="/BudgetBuddies">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
                   <figure><img src="/BudgetBuddies.PNG" alt="BudgetBuddies" /></figure>
@@ -49,11 +73,6 @@ const Projects = () => {
 
                 </div>
               </Link>
-
-              
-            </div>
-
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <Link href="/Inteflow">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/Inteflow.png" alt="Inteflow" /></figure>
@@ -71,6 +90,14 @@ const Projects = () => {
                 </div>
 
               </Link>
+            
+              
+
+
+            
+            </div>
+
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <Link href="/Kizuna">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white ">
                   <figure><img src="/kizuna.jpg" alt="Kizuna" /></figure>
@@ -91,13 +118,6 @@ const Projects = () => {
 
                 </div>
               </Link>
-              
-
-
-            
-            </div>
-
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <Link href="/HarmonyHealth">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
@@ -117,7 +137,11 @@ const Projects = () => {
                 </div>
               </Link>
 
-              <Link href="/HarvestHub">
+              
+            </div>
+            
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
+            <Link href="/HarvestHub">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
 
                   <figure><img src="/Harvesthub.png" alt="Harvesthub" /></figure>
@@ -133,9 +157,6 @@ const Projects = () => {
 
                 </div>
               </Link>
-            </div>
-            
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <Link href="/Pomo">
                 <div className="card w-96 shadow-xl bg-txt hover:scale-110 ease-in-out duration-300 text-white">
                   <figure><img src="/pomo.PNG" alt="Inteflow" /></figure>
