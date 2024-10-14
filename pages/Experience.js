@@ -46,7 +46,7 @@ const Experience = () => {
                         </div>
 
                             <ul className="list-disc list-inside ml-10">
-                                <li> Overseeing the team's software and hardware development, and external relations</li>
+                                <li> Overseeing the team&apos;s software and hardware development, and external relations</li>
                                 <li> Implemented agile methodologies using Jira as co-lead, optimizing task tracking and team efficiency</li>
                             </ul>
 

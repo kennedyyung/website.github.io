@@ -38,6 +38,7 @@ const Education = () => {
                             <ul className="list-disc list-inside ml-10">
                                 <li>Description Application of machine learning tools, with an emphasis on solving practical problems</li>
                                 <li>Topics include: Data cleaning, feature extraction, supervised and un-supervised machine learning, reproducible workflows, and communicating results</li>
+                                <li>Language: Python (Pandas and MatplotLib)</li>
                             </ul>
                         </div>
 
